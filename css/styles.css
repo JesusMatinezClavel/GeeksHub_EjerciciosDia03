@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: bisque;
+
+    display: block;
+}
+.frw {
+    display: flex;
+    justify-content: center;
+}
+.srw {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 8em;
+    width: 8em;
+    background-color: rgb(65, 44, 20);
+    margin: 1em;
+    transition: 1s;
+}
+
+.box:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    margin:2em;
+    transition: 1s;
+}
+.box:active {
+    background-color: rgb(255, 46, 161);
+    transition: .2s;
+}
+.a {
+    background-color: aqua;
+}
+
+.b {
+    background-color: rgb(32, 158, 85);
+}
+
+.c {
+    background-color: yellow;
+}
+
+.d {
+    background-color: white;
+}
+
+.e {
+    background-color: violet;
+}
+
+.f {
+    background-color: tomato;
+}
+
+.g {
+    background-color: teal;
+}
+
+.h {
+    background-color: slategrey;
+}
+
+.i {
+    background-color: slateblue;
+}
+
+.j {
+    background-color: skyblue;
+}
